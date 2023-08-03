@@ -12,6 +12,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import BrowserSetup.Base;
@@ -28,6 +29,7 @@ public class ToVerifyLoginPage extends Base {
 	CartPage cartpage;
 	String testID;
 	
+	@Parameters("browser")
 	@BeforeTest
 		public void beforeTest(String browserName) {
 		if (browserName.equals("Chrome")){
@@ -44,8 +46,7 @@ public class ToVerifyLoginPage extends Base {
 
 	@BeforeClass
 	public void openBrowser() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "E:\\Class Software\\Selenium\\chromedriver_win32\\chromedriver.exe");
-		driver = new ChromeDriver();		
+				
 		loginpage=new LoginPage(driver);
 		productpage = new ProductPage(driver);
 		cartpage = new CartPage(driver);

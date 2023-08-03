@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
     <classes>
       <class name="TestPack.ToVerifyLoginPage">
         <methods>
@@ -9,10 +10,56 @@
           <include name="beforeMethod"/>
           <include name="clearObject"/>
           <include name="logOutApplication"/>
+          <include name="beforeTest"/>
           <include name="closeTheBrowser"/>
           <include name="openBrowser"/>
         </methods>
       </class> <!-- TestPack.ToVerifyLoginPage -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="FireFoxTest(failed)">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="TestPack.ToVerifyLoginPage">
+        <methods>
+          <include name="verifyContinueWithShoppingButton"/>
+          <include name="beforeMethod"/>
+          <include name="clearObject"/>
+          <include name="logOutApplication"/>
+          <include name="beforeTest"/>
+          <include name="closeTheBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- TestPack.ToVerifyLoginPage -->
+    </classes>
+  </test> <!-- FireFoxTest(failed) -->
+  <test thread-count="5" name="OpearaTest(failed)">
+    <parameter name="browser" value="Opera"/>
+    <classes>
+      <class name="TestPack.ToVerifyLoginPage">
+        <methods>
+          <include name="VerifyCheckOutButton"/>
+          <include name="verifyContinueWithShoppingButton"/>
+          <include name="verifyRemoveButton"/>
+          <include name="beforeMethod"/>
+          <include name="clearObject"/>
+          <include name="logOutApplication"/>
+          <include name="beforeTest"/>
+          <include name="closeTheBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- TestPack.ToVerifyLoginPage -->
+      <class name="TestPack.ToVerifyProductPage">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="clearObject"/>
+          <include name="logOutApplication"/>
+          <include name="islandedOnProductPage"/>
+          <include name="beforeTest"/>
+          <include name="openBrowser"/>
+          <include name="loginToApplication"/>
+        </methods>
+      </class> <!-- TestPack.ToVerifyProductPage -->
+    </classes>
+  </test> <!-- OpearaTest(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

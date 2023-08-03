@@ -1,40 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="12" passed="6" failed="2" skipped="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-01T23:39:54 IST" name="Default suite" finished-at="2023-08-01T23:40:08 IST" duration-ms="14172">
+  <suite started-at="2023-08-03T09:24:43 IST" name="Suite1" finished-at="2023-08-03T09:26:24 IST" duration-ms="101091">
     <groups>
     </groups>
-    <test started-at="2023-08-01T23:39:54 IST" name="Default test" finished-at="2023-08-01T23:40:08 IST" duration-ms="14172">
+    <test started-at="2023-08-03T09:24:43 IST" name="ChromeTest" finished-at="2023-08-03T09:25:24 IST" duration-ms="40374">
       <class name="TestPack.ToVerifyLoginPage">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestPack.ToVerifyLoginPage@4b0b0854]" started-at="2023-08-01T23:39:54 IST" name="openBrowser" finished-at="2023-08-01T23:39:57 IST" duration-ms="3442" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.ToVerifyLoginPage@4b0b0854]" started-at="2023-08-01T23:39:57 IST" name="beforeMethod" finished-at="2023-08-01T23:40:00 IST" duration-ms="2412" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="VerifyCheckOutButton()[pri:0, instance:TestPack.ToVerifyLoginPage@4b0b0854]" started-at="2023-08-01T23:40:00 IST" name="VerifyCheckOutButton" finished-at="2023-08-01T23:40:05 IST" duration-ms="5526" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyCheckOutButton -->
-        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:TestPack.ToVerifyLoginPage@4b0b0854]" started-at="2023-08-01T23:40:05 IST" name="logOutApplication" finished-at="2023-08-01T23:40:05 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:TestPack.ToVerifyLoginPage@5c30a9b0]" started-at="2023-08-03T09:24:43 IST" name="beforeTest" finished-at="2023-08-03T09:24:56 IST" duration-ms="12241" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyCheckOutButton status=SUCCESS method=ToVerifyLoginPage.VerifyCheckOutButton()[pri:0, instance:TestPack.ToVerifyLoginPage@4b0b0854] output={null}]]]>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestPack.ToVerifyLoginPage@5c30a9b0]" started-at="2023-08-03T09:25:00 IST" name="openBrowser" finished-at="2023-08-03T09:25:01 IST" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.ToVerifyLoginPage@5c30a9b0]" started-at="2023-08-03T09:25:01 IST" name="beforeMethod" finished-at="2023-08-03T09:25:10 IST" duration-ms="9200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyCheckOutButton()[pri:0, instance:TestPack.ToVerifyLoginPage@5c30a9b0]" started-at="2023-08-03T09:25:10 IST" name="VerifyCheckOutButton" finished-at="2023-08-03T09:25:17 IST" duration-ms="6695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCheckOutButton -->
+        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:TestPack.ToVerifyLoginPage@5c30a9b0]" started-at="2023-08-03T09:25:17 IST" name="logOutApplication" finished-at="2023-08-03T09:25:17 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyCheckOutButton status=SUCCESS method=ToVerifyLoginPage.VerifyCheckOutButton()[pri:0, instance:TestPack.ToVerifyLoginPage@5c30a9b0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutApplication -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.ToVerifyLoginPage@4b0b0854]" started-at="2023-08-01T23:40:05 IST" name="beforeMethod" finished-at="2023-08-01T23:40:06 IST" duration-ms="525" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.ToVerifyLoginPage@5c30a9b0]" started-at="2023-08-03T09:25:17 IST" name="beforeMethod" finished-at="2023-08-03T09:25:18 IST" duration-ms="1542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyContinueWithShoppingButton()[pri:0, instance:TestPack.ToVerifyLoginPage@4b0b0854]" started-at="2023-08-01T23:40:06 IST" name="verifyContinueWithShoppingButton" finished-at="2023-08-01T23:40:06 IST" duration-ms="171" status="FAIL">
+        <test-method signature="verifyContinueWithShoppingButton()[pri:0, instance:TestPack.ToVerifyLoginPage@5c30a9b0]" started-at="2023-08-03T09:25:18 IST" name="verifyContinueWithShoppingButton" finished-at="2023-08-03T09:25:19 IST" duration-ms="304" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Continue Shoppin] but found [Continue Shopping]]]>
@@ -47,7 +58,166 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at TestPack.ToVerifyLoginPage.verifyContinueWithShoppingButton(ToVerifyLoginPage.java:72)
+at TestPack.ToVerifyLoginPage.verifyContinueWithShoppingButton(ToVerifyLoginPage.java:89)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContinueWithShoppingButton -->
+        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:TestPack.ToVerifyLoginPage@5c30a9b0]" started-at="2023-08-03T09:25:19 IST" name="logOutApplication" finished-at="2023-08-03T09:25:19 IST" duration-ms="307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContinueWithShoppingButton status=FAILURE method=ToVerifyLoginPage.verifyContinueWithShoppingButton()[pri:0, instance:TestPack.ToVerifyLoginPage@5c30a9b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.ToVerifyLoginPage@5c30a9b0]" started-at="2023-08-03T09:25:19 IST" name="beforeMethod" finished-at="2023-08-03T09:25:20 IST" duration-ms="1221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyRemoveButton()[pri:0, instance:TestPack.ToVerifyLoginPage@5c30a9b0]" started-at="2023-08-03T09:25:20 IST" name="verifyRemoveButton" finished-at="2023-08-03T09:25:21 IST" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRemoveButton -->
+        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:TestPack.ToVerifyLoginPage@5c30a9b0]" started-at="2023-08-03T09:25:21 IST" name="logOutApplication" finished-at="2023-08-03T09:25:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRemoveButton status=SUCCESS method=ToVerifyLoginPage.verifyRemoveButton()[pri:0, instance:TestPack.ToVerifyLoginPage@5c30a9b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:TestPack.ToVerifyLoginPage@5c30a9b0]" started-at="2023-08-03T09:25:21 IST" name="closeTheBrowser" finished-at="2023-08-03T09:25:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:TestPack.ToVerifyLoginPage@5c30a9b0]" started-at="2023-08-03T09:25:21 IST" name="clearObject" finished-at="2023-08-03T09:25:23 IST" duration-ms="1916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+      </class> <!-- TestPack.ToVerifyLoginPage -->
+      <class name="TestPack.ToVerifyProductPage">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:TestPack.ToVerifyProductPage@9353778]" started-at="2023-08-03T09:24:56 IST" name="beforeTest" finished-at="2023-08-03T09:25:00 IST" duration-ms="4436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestPack.ToVerifyProductPage@9353778]" started-at="2023-08-03T09:25:00 IST" name="openBrowser" finished-at="2023-08-03T09:25:07 IST" duration-ms="7212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TestPack.ToVerifyProductPage@9353778]" started-at="2023-08-03T09:25:07 IST" name="loginToApplication" finished-at="2023-08-03T09:25:10 IST" duration-ms="2560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="islandedOnProductPage()[pri:0, instance:TestPack.ToVerifyProductPage@9353778]" started-at="2023-08-03T09:25:10 IST" name="islandedOnProductPage" finished-at="2023-08-03T09:25:11 IST" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- islandedOnProductPage -->
+        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:TestPack.ToVerifyProductPage@9353778]" started-at="2023-08-03T09:25:11 IST" name="logOutApplication" finished-at="2023-08-03T09:25:11 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=islandedOnProductPage status=SUCCESS method=ToVerifyProductPage.islandedOnProductPage()[pri:0, instance:TestPack.ToVerifyProductPage@9353778] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.ToVerifyProductPage@9353778]" started-at="2023-08-03T09:25:11 IST" name="closeBrowser" finished-at="2023-08-03T09:25:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:TestPack.ToVerifyProductPage@9353778]" started-at="2023-08-03T09:25:23 IST" name="clearObject" finished-at="2023-08-03T09:25:24 IST" duration-ms="999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+      </class> <!-- TestPack.ToVerifyProductPage -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-08-03T09:25:24 IST" name="FireFoxTest" finished-at="2023-08-03T09:26:20 IST" duration-ms="56359">
+      <class name="TestPack.ToVerifyLoginPage">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:TestPack.ToVerifyLoginPage@f5ac9e4]" started-at="2023-08-03T09:25:24 IST" name="beforeTest" finished-at="2023-08-03T09:25:38 IST" duration-ms="13984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestPack.ToVerifyLoginPage@f5ac9e4]" started-at="2023-08-03T09:25:53 IST" name="openBrowser" finished-at="2023-08-03T09:25:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.ToVerifyLoginPage@f5ac9e4]" started-at="2023-08-03T09:25:53 IST" name="beforeMethod" finished-at="2023-08-03T09:26:02 IST" duration-ms="8955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyCheckOutButton()[pri:0, instance:TestPack.ToVerifyLoginPage@f5ac9e4]" started-at="2023-08-03T09:26:02 IST" name="VerifyCheckOutButton" finished-at="2023-08-03T09:26:08 IST" duration-ms="6727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCheckOutButton -->
+        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:TestPack.ToVerifyLoginPage@f5ac9e4]" started-at="2023-08-03T09:26:08 IST" name="logOutApplication" finished-at="2023-08-03T09:26:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyCheckOutButton status=SUCCESS method=ToVerifyLoginPage.VerifyCheckOutButton()[pri:0, instance:TestPack.ToVerifyLoginPage@f5ac9e4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.ToVerifyLoginPage@f5ac9e4]" started-at="2023-08-03T09:26:08 IST" name="beforeMethod" finished-at="2023-08-03T09:26:10 IST" duration-ms="1191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyContinueWithShoppingButton()[pri:0, instance:TestPack.ToVerifyLoginPage@f5ac9e4]" started-at="2023-08-03T09:26:10 IST" name="verifyContinueWithShoppingButton" finished-at="2023-08-03T09:26:11 IST" duration-ms="917" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Continue Shoppin] but found [Continue Shopping]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Continue Shoppin] but found [Continue Shopping]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at TestPack.ToVerifyLoginPage.verifyContinueWithShoppingButton(ToVerifyLoginPage.java:89)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -82,45 +252,552 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContinueWithShoppingButton -->
-        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:TestPack.ToVerifyLoginPage@4b0b0854]" started-at="2023-08-01T23:40:06 IST" name="logOutApplication" finished-at="2023-08-01T23:40:06 IST" duration-ms="164" status="PASS">
+        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:TestPack.ToVerifyLoginPage@f5ac9e4]" started-at="2023-08-03T09:26:11 IST" name="logOutApplication" finished-at="2023-08-03T09:26:11 IST" duration-ms="279" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyContinueWithShoppingButton status=FAILURE method=ToVerifyLoginPage.verifyContinueWithShoppingButton()[pri:0, instance:TestPack.ToVerifyLoginPage@4b0b0854] output={null}]]]>
+                <![CDATA[[TestResult name=verifyContinueWithShoppingButton status=FAILURE method=ToVerifyLoginPage.verifyContinueWithShoppingButton()[pri:0, instance:TestPack.ToVerifyLoginPage@f5ac9e4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutApplication -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.ToVerifyLoginPage@4b0b0854]" started-at="2023-08-01T23:40:06 IST" name="beforeMethod" finished-at="2023-08-01T23:40:07 IST" duration-ms="420" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.ToVerifyLoginPage@f5ac9e4]" started-at="2023-08-03T09:26:11 IST" name="beforeMethod" finished-at="2023-08-03T09:26:12 IST" duration-ms="1123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyRemoveButton()[pri:0, instance:TestPack.ToVerifyLoginPage@4b0b0854]" started-at="2023-08-01T23:40:07 IST" name="verifyRemoveButton" finished-at="2023-08-01T23:40:07 IST" duration-ms="172" status="PASS">
+        <test-method signature="verifyRemoveButton()[pri:0, instance:TestPack.ToVerifyLoginPage@f5ac9e4]" started-at="2023-08-03T09:26:12 IST" name="verifyRemoveButton" finished-at="2023-08-03T09:26:12 IST" duration-ms="535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRemoveButton -->
-        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:TestPack.ToVerifyLoginPage@4b0b0854]" started-at="2023-08-01T23:40:07 IST" name="logOutApplication" finished-at="2023-08-01T23:40:07 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:TestPack.ToVerifyLoginPage@f5ac9e4]" started-at="2023-08-03T09:26:12 IST" name="logOutApplication" finished-at="2023-08-03T09:26:13 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyRemoveButton status=SUCCESS method=ToVerifyLoginPage.verifyRemoveButton()[pri:0, instance:TestPack.ToVerifyLoginPage@4b0b0854] output={null}]]]>
+                <![CDATA[[TestResult name=verifyRemoveButton status=SUCCESS method=ToVerifyLoginPage.verifyRemoveButton()[pri:0, instance:TestPack.ToVerifyLoginPage@f5ac9e4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutApplication -->
-        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:TestPack.ToVerifyLoginPage@4b0b0854]" started-at="2023-08-01T23:40:07 IST" name="closeTheBrowser" finished-at="2023-08-01T23:40:07 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:TestPack.ToVerifyLoginPage@f5ac9e4]" started-at="2023-08-03T09:26:13 IST" name="clearObject" finished-at="2023-08-03T09:26:18 IST" duration-ms="5177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:TestPack.ToVerifyLoginPage@f5ac9e4]" started-at="2023-08-03T09:26:13 IST" name="closeTheBrowser" finished-at="2023-08-03T09:26:13 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
-        <test-method is-config="true" signature="clearObject()[pri:0, instance:TestPack.ToVerifyLoginPage@4b0b0854]" started-at="2023-08-01T23:40:07 IST" name="clearObject" finished-at="2023-08-01T23:40:08 IST" duration-ms="1269" status="PASS">
+      </class> <!-- TestPack.ToVerifyLoginPage -->
+      <class name="TestPack.ToVerifyProductPage">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:TestPack.ToVerifyProductPage@402bba4f]" started-at="2023-08-03T09:25:38 IST" name="beforeTest" finished-at="2023-08-03T09:25:47 IST" duration-ms="8648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestPack.ToVerifyProductPage@402bba4f]" started-at="2023-08-03T09:25:47 IST" name="openBrowser" finished-at="2023-08-03T09:25:51 IST" duration-ms="4614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TestPack.ToVerifyProductPage@402bba4f]" started-at="2023-08-03T09:25:51 IST" name="loginToApplication" finished-at="2023-08-03T09:25:53 IST" duration-ms="1141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="islandedOnProductPage()[pri:0, instance:TestPack.ToVerifyProductPage@402bba4f]" started-at="2023-08-03T09:25:53 IST" name="islandedOnProductPage" finished-at="2023-08-03T09:25:53 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- islandedOnProductPage -->
+        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:TestPack.ToVerifyProductPage@402bba4f]" started-at="2023-08-03T09:25:53 IST" name="logOutApplication" finished-at="2023-08-03T09:25:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=islandedOnProductPage status=SUCCESS method=ToVerifyProductPage.islandedOnProductPage()[pri:0, instance:TestPack.ToVerifyProductPage@402bba4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.ToVerifyProductPage@402bba4f]" started-at="2023-08-03T09:25:53 IST" name="closeBrowser" finished-at="2023-08-03T09:25:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:TestPack.ToVerifyProductPage@402bba4f]" started-at="2023-08-03T09:26:18 IST" name="clearObject" finished-at="2023-08-03T09:26:20 IST" duration-ms="2566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+      </class> <!-- TestPack.ToVerifyProductPage -->
+    </test> <!-- FireFoxTest -->
+    <test started-at="2023-08-03T09:26:22 IST" name="OpearaTest" finished-at="2023-08-03T09:26:24 IST" duration-ms="1990">
+      <class name="TestPack.ToVerifyLoginPage">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:TestPack.ToVerifyLoginPage@7334aada]" started-at="2023-08-03T09:26:22 IST" name="beforeTest" finished-at="2023-08-03T09:26:24 IST" duration-ms="1918" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: cannot find Opera binary
+  (Driver info: operadriver=111.0.5563.65 (e4830ceddc221b83dbca59c8d293ee9fd44ee868-refs/branch-heads/5563@{#996}),platform=Windows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 108 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PANKAJ', ip: '192.168.43.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: OperaDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot find Opera binary
+  (Driver info: operadriver=111.0.5563.65 (e4830ceddc221b83dbca59c8d293ee9fd44ee868-refs/branch-heads/5563@{#996}),platform=Windows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 108 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PANKAJ', ip: '192.168.43.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: OperaDriver
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.opera.OperaDriver.<init>(OperaDriver.java:173)
+at org.openqa.selenium.opera.OperaDriver.<init>(OperaDriver.java:160)
+at org.openqa.selenium.opera.OperaDriver.<init>(OperaDriver.java:115)
+at BrowserSetup.Base.openOperaBrowser(Base.java:26)
+at TestPack.ToVerifyLoginPage.beforeTest(ToVerifyLoginPage.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestPack.ToVerifyLoginPage@7334aada]" started-at="2023-08-03T09:26:24 IST" name="openBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1691034984929" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.ToVerifyLoginPage@7334aada]" started-at="2023-08-03T09:26:24 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1691034984931" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyCheckOutButton()[pri:0, instance:TestPack.ToVerifyLoginPage@7334aada]" started-at="2023-08-03T09:26:24 IST" name="VerifyCheckOutButton" finished-at="2023-08-03T09:26:24 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: cannot find Opera binary
+  (Driver info: operadriver=111.0.5563.65 (e4830ceddc221b83dbca59c8d293ee9fd44ee868-refs/branch-heads/5563@{#996}),platform=Windows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 108 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PANKAJ', ip: '192.168.43.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: OperaDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot find Opera binary
+  (Driver info: operadriver=111.0.5563.65 (e4830ceddc221b83dbca59c8d293ee9fd44ee868-refs/branch-heads/5563@{#996}),platform=Windows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 108 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PANKAJ', ip: '192.168.43.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: OperaDriver
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.opera.OperaDriver.<init>(OperaDriver.java:173)
+at org.openqa.selenium.opera.OperaDriver.<init>(OperaDriver.java:160)
+at org.openqa.selenium.opera.OperaDriver.<init>(OperaDriver.java:115)
+at BrowserSetup.Base.openOperaBrowser(Base.java:26)
+at TestPack.ToVerifyLoginPage.beforeTest(ToVerifyLoginPage.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCheckOutButton -->
+        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:TestPack.ToVerifyLoginPage@7334aada]" started-at="2023-08-03T09:26:24 IST" name="logOutApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1691034984935" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.ToVerifyLoginPage@7334aada]" started-at="2023-08-03T09:26:24 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1691034984938" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyContinueWithShoppingButton()[pri:0, instance:TestPack.ToVerifyLoginPage@7334aada]" started-at="2023-08-03T09:26:24 IST" name="verifyContinueWithShoppingButton" finished-at="2023-08-03T09:26:24 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: cannot find Opera binary
+  (Driver info: operadriver=111.0.5563.65 (e4830ceddc221b83dbca59c8d293ee9fd44ee868-refs/branch-heads/5563@{#996}),platform=Windows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 108 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PANKAJ', ip: '192.168.43.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: OperaDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot find Opera binary
+  (Driver info: operadriver=111.0.5563.65 (e4830ceddc221b83dbca59c8d293ee9fd44ee868-refs/branch-heads/5563@{#996}),platform=Windows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 108 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PANKAJ', ip: '192.168.43.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: OperaDriver
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.opera.OperaDriver.<init>(OperaDriver.java:173)
+at org.openqa.selenium.opera.OperaDriver.<init>(OperaDriver.java:160)
+at org.openqa.selenium.opera.OperaDriver.<init>(OperaDriver.java:115)
+at BrowserSetup.Base.openOperaBrowser(Base.java:26)
+at TestPack.ToVerifyLoginPage.beforeTest(ToVerifyLoginPage.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContinueWithShoppingButton -->
+        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:TestPack.ToVerifyLoginPage@7334aada]" started-at="2023-08-03T09:26:24 IST" name="logOutApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1691034984947" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestPack.ToVerifyLoginPage@7334aada]" started-at="2023-08-03T09:26:24 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1691034984949" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyRemoveButton()[pri:0, instance:TestPack.ToVerifyLoginPage@7334aada]" started-at="2023-08-03T09:26:24 IST" name="verifyRemoveButton" finished-at="2023-08-03T09:26:24 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: cannot find Opera binary
+  (Driver info: operadriver=111.0.5563.65 (e4830ceddc221b83dbca59c8d293ee9fd44ee868-refs/branch-heads/5563@{#996}),platform=Windows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 108 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PANKAJ', ip: '192.168.43.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: OperaDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot find Opera binary
+  (Driver info: operadriver=111.0.5563.65 (e4830ceddc221b83dbca59c8d293ee9fd44ee868-refs/branch-heads/5563@{#996}),platform=Windows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 108 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PANKAJ', ip: '192.168.43.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: OperaDriver
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.opera.OperaDriver.<init>(OperaDriver.java:173)
+at org.openqa.selenium.opera.OperaDriver.<init>(OperaDriver.java:160)
+at org.openqa.selenium.opera.OperaDriver.<init>(OperaDriver.java:115)
+at BrowserSetup.Base.openOperaBrowser(Base.java:26)
+at TestPack.ToVerifyLoginPage.beforeTest(ToVerifyLoginPage.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRemoveButton -->
+        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:TestPack.ToVerifyLoginPage@7334aada]" started-at="2023-08-03T09:26:24 IST" name="logOutApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1691034984953" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:TestPack.ToVerifyLoginPage@7334aada]" started-at="2023-08-03T09:26:24 IST" name="closeTheBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1691034984954" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:TestPack.ToVerifyLoginPage@7334aada]" started-at="2023-08-03T09:26:24 IST" name="clearObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1691034984955" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearObject -->
       </class> <!-- TestPack.ToVerifyLoginPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="TestPack.ToVerifyProductPage">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:TestPack.ToVerifyProductPage@441772e]" started-at="2023-08-03T09:26:24 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1691034984902" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestPack.ToVerifyProductPage@441772e]" started-at="2023-08-03T09:26:24 IST" name="openBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1691034984907" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:TestPack.ToVerifyProductPage@441772e]" started-at="2023-08-03T09:26:24 IST" name="loginToApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1691034984910" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="islandedOnProductPage()[pri:0, instance:TestPack.ToVerifyProductPage@441772e]" started-at="2023-08-03T09:26:24 IST" name="islandedOnProductPage" finished-at="2023-08-03T09:26:24 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: cannot find Opera binary
+  (Driver info: operadriver=111.0.5563.65 (e4830ceddc221b83dbca59c8d293ee9fd44ee868-refs/branch-heads/5563@{#996}),platform=Windows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 108 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PANKAJ', ip: '192.168.43.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: OperaDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot find Opera binary
+  (Driver info: operadriver=111.0.5563.65 (e4830ceddc221b83dbca59c8d293ee9fd44ee868-refs/branch-heads/5563@{#996}),platform=Windows NT 10.0.19045 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 108 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PANKAJ', ip: '192.168.43.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: OperaDriver
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.opera.OperaDriver.<init>(OperaDriver.java:173)
+at org.openqa.selenium.opera.OperaDriver.<init>(OperaDriver.java:160)
+at org.openqa.selenium.opera.OperaDriver.<init>(OperaDriver.java:115)
+at BrowserSetup.Base.openOperaBrowser(Base.java:26)
+at TestPack.ToVerifyLoginPage.beforeTest(ToVerifyLoginPage.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- islandedOnProductPage -->
+        <test-method is-config="true" signature="logOutApplication(org.testng.ITestResult)[pri:0, instance:TestPack.ToVerifyProductPage@441772e]" started-at="2023-08-03T09:26:24 IST" name="logOutApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1691034984925" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestPack.ToVerifyProductPage@441772e]" started-at="2023-08-03T09:26:24 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1691034984927" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:TestPack.ToVerifyProductPage@441772e]" started-at="2023-08-03T09:26:24 IST" name="clearObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1691034984958" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+      </class> <!-- TestPack.ToVerifyProductPage -->
+    </test> <!-- OpearaTest -->
+  </suite> <!-- Suite1 -->
 </testng-results>
