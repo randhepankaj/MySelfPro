@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite1" thread-count="5" parallel="tests">
+  <test thread-count="2" name="ChromeTest" parallel="classes">
+  <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="TestPack.ToVerifyProductPage"/>
+      <class name="TestPack.ToVerifyLoginPage"/>
+    </classes>
+  </test>
+    <test thread-count="2" name="FireFoxTest" parallel="classes">
+  <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="TestPack.ToVerifyProductPage"/>
+      <class name="TestPack.ToVerifyLoginPage"/>
+    </classes>
+    </test>
+    
+</suite> <!-- Suite1 -->
