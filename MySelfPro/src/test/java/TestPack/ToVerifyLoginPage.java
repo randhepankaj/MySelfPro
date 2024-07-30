@@ -61,7 +61,8 @@ public class ToVerifyLoginPage extends Base {
 		loginpage.enterUsename();
 		loginpage.enterPassword();
 		loginpage.clickOnLoginButton();
-		
+				System.out.println("pankaj randhe");
+
 		
 	}
 	
