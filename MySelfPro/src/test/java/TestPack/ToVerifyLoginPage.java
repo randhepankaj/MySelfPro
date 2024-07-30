@@ -3,7 +3,6 @@ package TestPack;
 import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
@@ -14,7 +13,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
 import BrowserSetup.Base;
 import Utils.Utility;
 import pack1.CartPage;
@@ -84,7 +82,7 @@ public class ToVerifyLoginPage extends Base {
 	public void verifyContinueWithShoppingButton() {
 		testID= "Test002";
 		productpage.clickOnCartButton();
-		String expUrl= "Continue Shoppin";
+		String expUrl= "Continue Shopping";
 		String actURl=cartpage.getTextofContinueWithShoppingButton();
 		Assert.assertEquals(actURl, expUrl);
 		

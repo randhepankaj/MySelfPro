@@ -5,10 +5,13 @@
     <classes>
       <class name="TestPack.ToVerifyLoginPage">
         <methods>
+          <include name="VerifyCheckOutButton"/>
           <include name="verifyContinueWithShoppingButton"/>
+          <include name="verifyRemoveButton"/>
           <include name="beforeMethod"/>
           <include name="clearObject"/>
           <include name="logOutApplication"/>
+          <include name="beforeTest"/>
           <include name="closeTheBrowser"/>
           <include name="openBrowser"/>
         </methods>
